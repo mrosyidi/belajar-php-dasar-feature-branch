@@ -11,3 +11,9 @@
   echo "Age : ";
   echo $age;
   echo "\n";
+
+  $name = "Eko";
+
+  echo "Is Name Null? : ";
+  var_dump(is_null($name));
+  echo "\n";
