@@ -17,3 +17,9 @@
   echo "Is Name Null? : ";
   var_dump(is_null($name));
   echo "\n";
+
+  $contoh = "Eko";
+  unset($contoh);
+  $contoh = "Kurniawan";
+  $contoh = null;
+  var_dump(isset($contoh));
