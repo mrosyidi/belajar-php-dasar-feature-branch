@@ -9,3 +9,14 @@
   echo "Age : ";
   echo $age;
   echo "\n";
+
+  $contoh = "eko";
+  $$contoh = "kurniawan";
+
+  echo "Contoh : ";
+  echo $contoh;
+  echo "\n";
+
+  echo "eko : ";
+  echo $eko;
+  echo "\n";
