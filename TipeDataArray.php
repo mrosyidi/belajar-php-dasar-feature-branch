@@ -17,3 +17,20 @@
   var_dump($names);
 
   var_dump(count($names));
+
+  $eko = array(
+    "id" => "eko",
+    "name" => "Eko Kurniawan",
+    "age" => 30
+  );
+
+  var_dump($eko);
+  var_dump($eko["name"]);
+
+  $budi = [
+    "id" => "budi",
+    "name" => "Budi Nugraha",
+    "age" => 35
+  ];
+
+  var_dump($budi);
