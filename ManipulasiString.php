@@ -11,3 +11,8 @@
 
   $valueFloat = (float)"1.01";
   var_dump($valueFloat);
+
+  $name = "Eko";
+  echo $name[0] . PHP_EOL;
+  echo $name[1] . PHP_EOL;
+  echo $name[2] . PHP_EOL;
