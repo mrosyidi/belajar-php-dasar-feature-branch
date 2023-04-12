@@ -1,5 +1,5 @@
 <?php
-  function sum(int $first, int $second)
+  function sum(int $first, int $second) : int
   {
     return $first + $second;
   }
@@ -10,7 +10,7 @@
   $total = sum(100, 100);
   var_dump($total);
 
-  function getFinalValue(int $value)
+  function getFinalValue(int $value) : string
   {
     if($value >= 80){
       return "A";
