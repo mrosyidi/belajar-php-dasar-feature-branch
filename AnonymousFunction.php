@@ -21,3 +21,12 @@
   };
 
   sayGoodBye("Eko", $filterFunction);
+
+  $firstName = "Eko";
+  $lastName = "Kurniawan";
+
+  $sayHelloEko = function () use ($firstName, $lastName){
+    echo "Hello $firstName $lastName" . PHP_EOL;
+  };
+
+  $sayHelloEko();
